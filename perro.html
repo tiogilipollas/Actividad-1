@@ -18,8 +18,8 @@
       <a href="index.html">Inicio > </a>
     </nav>
     <br>
-    <h1>PERROS EN ADOPCION</h1>
-    <p>Descripcion</p>
+    <h1 id="titulo">PERROS EN ADOPCION</h1>
+    <p id="desc">Descripcion</p>
 
   </header>
   <main>
@@ -28,17 +28,17 @@
     </section>
     <article>
         <img src="Imagenes/pepa.png" alt="Imagen de la pepa" width="300px" height="200px">
-        <a href="pepa.html">Pepa</a>
+        <a id="mascota" href="pepa.html">Pepa</a>
       
     </article>
     <article>
         <img src="Imagenes/tommy.jpg" alt="Imagen del Tommy" width="300px" height="250px">
-        <a href="tommy.html">Tommy</a>
+        <a  id="mascota" href="tommy.html">Tommy</a>
       
     </article>
     <article>
         <img src="Imagenes/Ginger.jpg " alt="Imagen de la Ginger" width="300" height="200px">
-        <a href="ginger.html">Ginger</a>
+        <a  id="mascota" href="ginger.html">Ginger</a>
       
     </article>
     
@@ -48,8 +48,33 @@
   </footer>
   <style>
 
-    nav{
+nav{
       text-align: end;
+    }
+
+    #titulo{
+      text-align: center;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 45px;
+    }
+
+    #desc{
+      text-align: center;
+    }
+
+    h1{
+      text-align: center;
+      font-size:35px;
+      font-family: arial;
+    }
+
+    img{
+      position:relative;
+      left: 200px;
+    }
+    #mascota{
+      position: relative;
+      left: 200px;
     }
   </style>
     
