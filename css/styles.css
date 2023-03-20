@@ -3,36 +3,58 @@
     font-size: 45px;
     text-align: center;
   }
-  li{
+li{
     position: relative;
     left:200px;
     font-size: 25px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color :indigo;
-  }
-  nav{
+}
+nav{
     text-align: end;
-  }
+}
 
-  #desc{
+#desc{
     text-align: center;
     font-family: arial;
     font-size: 26px;
-  }
+}
 
-  h2{
+h2{
     text-align: center;
     font-family: arial;
     font-size: 35px;
-  }
+}
 
-  img{
+img{
     position: relative;
     left: 200px;
-  }
+}
 
-  #mascota{
+#mascota{
     position:relative;
     left:200px
-  }
+}
 
+#descperrogato{
+    text-align: center;
+}
+
+.gpfamilia{
+      text-align: center;
+      font-size:35px;
+      font-family: arial;
+}
+
+#imagengatosperros{
+    position:relative;
+    left:300px;
+}
+
+#descgatosperros{
+  position:relative;
+  left: 820px;
+  bottom: 350px;
+  font-family:Arial, Helvetica, sans-serif ;
+  font-size:30px;
+}
