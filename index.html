@@ -18,8 +18,8 @@
       <a href="index.html">Inicio ></a>
     </nav>
     <br>
-    <h1>ONG AYUDA A UN PELUDO</h1>
-    <P>descripcion....</P>
+    <h1 id="titulo">ONG AYUDA A UN PELUDO</h1>
+    <P id="desc">descripcion....</P>
   </header>
   <main>
     <section>
@@ -32,16 +32,53 @@
     <article>
       <h2>Nuestras secciones de ayuda:</h2>
         <img src="Imagenes/gato1.png" alt="Imagen de gato" width="200px" height="150px">
-        <a href="gato.html">Gatos</a>
+        <a id="mascota" href="gato.html">Gatos</a>
         <br>
         <img src="Imagenes/perro1.png" alt="Imagen de perro" width="200px" height="250px">
-        <a href="perro.html">Perros</a>
+        <a id="mascota" href="perro.html">Perros</a>
     </article>
     <footer>
       <p>Informacion extra</p>
     </footer>
     
   </main>
+  <style>
+    #titulo{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 45px;
+      text-align: center;
+    }
+    li{
+      position: relative;
+      left:200px;
+      font-size: 25px
+    }
+    nav{
+      text-align: end;
+    }
+
+    #desc{
+      text-align: center;
+    }
+
+    h2{
+      text-align: center;
+      font-family: arial;
+      font-size: 35px;
+    }
+
+    img{
+      position: relative;
+      left: 200px;
+    }
+
+    #mascota{
+      position:relative;
+      left:200px
+    }
+
+
+  </style>
 
 </body>
 </html>
