@@ -79,10 +79,10 @@ main{
 
 body{
     background-image: url("../Imagenes/Fondo_mascotas_1.jpg");
+    background-color: #fff;
 }
 
-
-.css-button-3d--blue {
+.boton {
     min-width: 130px;
     height: 40px;
     color: #fff;
@@ -93,16 +93,32 @@ body{
     position: relative;
     display: inline-block;
     outline: none;
+    overflow: hidden;
     border-radius: 5px;
     border: none;
-    background: #3d348b;
-    box-shadow: 0 5px #2c0b8e;
+    background-color: #343a40;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: relative;
+    left: 180px;
+    bottom: 50px;
   }
-  .css-button-3d--blue:hover {
-    box-shadow: 0 3px #2c0b8e;
-    top: 1px;
+  .boton:hover {
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left:8px;
   }
-  .css-button-3d--blue:active {
-    box-shadow: 0 0 #2c0b8e;
-    top: 5px;
+  .boton:after {
+    opacity: 1;
+    right: 10px;
+  }
+  .boton:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 40px;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
   }
