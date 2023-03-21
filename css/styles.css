@@ -79,6 +79,8 @@ main{
 
 body{
     background-image: url("../Imagenes/Fondo_mascotas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .boton {
