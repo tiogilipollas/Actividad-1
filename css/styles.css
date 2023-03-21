@@ -77,6 +77,10 @@ main{
     border-radius: 20px;
 }
 
+body{
+    background-image: url("../Imagenes/Fondo_mascotas_1.jpg");
+}
+
 
 .css-button-3d--blue {
     min-width: 130px;
