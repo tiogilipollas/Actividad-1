@@ -8,6 +8,7 @@
     padding: 30px;
     margin:10px;
     border-radius: 60px;
+    
   }
 li{
     position: relative;
@@ -76,11 +77,11 @@ main{
     margin:10px;
     border-radius: 20px;
 }
-
 body{
     background-image: url("../Imagenes/Fondo_mascotas.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .boton {
@@ -122,4 +123,10 @@ body{
     top: 0;
     right: -20px;
     transition: 0.4s;
+  }
+
+  .owo{
+    position: relative;
+    width:40px ;
+    
   }
