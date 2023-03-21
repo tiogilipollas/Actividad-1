@@ -77,4 +77,8 @@ main{
     border-radius: 20px;
 }
 
+body{
+    background-image: url("../Imagenes/Fondo_mascotas_1.jpg");
+}
+
 
