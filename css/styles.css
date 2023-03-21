@@ -75,3 +75,12 @@ main{
     margin:10px;
     border-radius: 20px;
 }
+
+footer{
+    border: 10px;
+    border-color: black;
+    border-style:ridge;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
