@@ -4,7 +4,7 @@
     text-align: center;
     border: 20px;
     border-color: black;
-    border-style:ridge;
+    border-style:outset;
     padding: 30px;
     margin:10px;
     border-radius: 60px;
@@ -35,6 +35,7 @@ h2{
 img{
     position: relative;
     left: 200px;
+
 }
 
 #mascota{
@@ -74,14 +75,6 @@ main{
     padding: 30px;
     margin:10px;
     border-radius: 20px;
-}
-
-footer{
-    border: 10px;
-    border-color: black;
-    border-style:ridge;
-    border-radius: 20px;
-    padding-bottom: 20px;
 }
 
 
