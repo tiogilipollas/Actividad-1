@@ -1,132 +1,138 @@
-#titulo{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 45px;
-    text-align: center;
-    border: 20px;
-    border-color: black;
-    border-style:outset;
-    padding: 30px;
-    margin:10px;
-    border-radius: 60px;
-    
-  }
-li{
-    position: relative;
-    left:200px;
-    font-size: 25px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color :indigo;
-}
-nav{
-    text-align: end;
-}
-
-#desc{
-    text-align: center;
-    font-family: arial;
-    font-size: 26px;
-}
-
-h2{
-    text-align: center;
-    font-family: arial;
-    font-size: 35px;
-}
-
-img{
-    position: relative;
-    left: 200px;
+#titulo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  text-align: center;
+  border: 20px;
+  border-color: black;
+  border-style: outset;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 60px;
 
 }
 
-#mascota{
-    position:relative;
-    left:200px
+li {
+  position: relative;
+  left: 200px;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: indigo;
 }
 
-#descperrogato{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+nav {
+  text-align: end;
 }
 
-.gpfamilia{
-      text-align: center;
-      font-size:35px;
-      font-family: arial;
+#desc {
+  text-align: center;
+  font-family: arial;
+  font-size: 26px;
 }
 
-#imagengatosperros{
-    position:relative;
-    left:300px;
+h2 {
+  text-align: center;
+  font-family: arial;
+  font-size: 35px;
 }
 
-#descgatosperros{
-  position:relative;
+img {
+  position: relative;
+  left: 200px;
+
+}
+
+#mascota {
+  position: relative;
+  left: 200px
+}
+
+#descperrogato {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.gpfamilia {
+  text-align: center;
+  font-size: 35px;
+  font-family: arial;
+}
+
+#imagengatosperros {
+  position: relative;
+  left: 300px;
+}
+
+#descgatosperros {
+  position: relative;
   left: 820px;
   bottom: 350px;
-  font-family:Arial, Helvetica, sans-serif ;
-  font-size:30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
 }
 
-main{
-    border: 20px;
-    border-color: black;
-    border-style:ridge;
-    padding: 30px;
-    margin:10px;
-    border-radius: 20px;
+main {
+  border: 20px;
+  border-color: black;
+  border-style: ridge;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 20px;
 }
-body{
-    background-image: url("../Imagenes/Fondo_mascotas.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+
+body {
+  background-image: url("../Imagenes/Fondo_mascotas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .boton {
-    min-width: 130px;
-    height: 40px;
-    color: #fff;
-    padding: 5px 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    outline: none;
-    overflow: hidden;
-    border-radius: 5px;
-    border: none;
-    background-color: #343a40;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    position: relative;
-    left: 200px;
-    bottom: 50px;
-  }
-  .boton:hover {
-    border-radius: 5px;
-    padding-right: 24px;
-    padding-left:8px;
-  }
-  .boton:after {
-    opacity: 1;
-    right: 10px;
-  }
-  .boton:after {
-    content: "\00BB";
-    position: absolute;
-    opacity: 0;
-    font-size: 20px;
-    line-height: 40px;
-    top: 0;
-    right: -20px;
-    transition: 0.4s;
-  }
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  overflow: hidden;
+  border-radius: 5px;
+  border: none;
+  background-color: #343a40;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  position: relative;
+  left: 200px;
+  bottom: 50px;
+}
 
-  .owo{
-    position: relative;
-    width:40px ;
-    
-  }
+.boton:hover {
+  border-radius: 5px;
+  padding-right: 24px;
+  padding-left: 8px;
+}
+
+.boton:after {
+  opacity: 1;
+  right: 10px;
+}
+
+.boton:after {
+  content: "\00BB";
+  position: absolute;
+  opacity: 0;
+  font-size: 20px;
+  line-height: 40px;
+  top: 0;
+  right: -20px;
+  transition: 0.4s;
+}
+
+.owo {
+  position: relative;
+  width: 40px;
+
+}
