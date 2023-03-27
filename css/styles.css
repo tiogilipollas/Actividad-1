@@ -2,31 +2,34 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 45px;
   text-align: center;
-  border: 20px;
-  border-color: black;
-  border-style: outset;
-  padding: 30px;
-  margin: 10px;
-  border-radius: 60px;
-
 }
-
+.informacionheader {
+  background: linear-gradient(rgba(252, 252, 252, 0.4),rgba(252,252,252,0.4));
+  border-radius: 50px;
+  padding-bottom: 6px;
+}
 li {
   position: relative;
   left: 200px;
   font-size: 25px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: indigo;
+  color: black;
 }
 
 nav {
-  text-align: end;
+  text-align:end;
+
+
 }
 
-#desc {
+.desc {
   text-align: center;
   font-family: arial;
-  font-size: 26px;
+  font-size: 30px;
+  color: black;
+
+
+  
 }
 
 h2 {
@@ -38,6 +41,9 @@ h2 {
 img {
   position: relative;
   left: 200px;
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+  margin: 20px;
+  border-radius: 20px;
 
 }
 
@@ -46,7 +52,7 @@ img {
   left: 200px
 }
 
-#descperrogato {
+.descperrogato {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
@@ -58,33 +64,33 @@ img {
   font-family: arial;
 }
 
-#imagengatosperros {
+.imagengatosperros {
   position: relative;
   left: 300px;
+  border-radius: 20px;
 }
 
 #descgatosperros {
   position: relative;
-  left: 820px;
-  bottom: 350px;
+  left: 870px;
+  bottom: 400px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
 }
 
 main {
-  border: 20px;
-  border-color: black;
-  border-style: ridge;
-  padding: 30px;
-  margin: 10px;
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+  margin: 30px;
   border-radius: 20px;
+  padding: 20px;
 }
 
 body {
-  background-image: url("../Imagenes/Fondo_mascotas.jpg");
+ background-image: url(../Imagenes/Fondo_mascotas.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-blend-mode: darken;
 }
 
 .boton {
@@ -131,15 +137,11 @@ body {
   transition: 0.4s;
 }
 
-.owo {
-  position: relative;
-  width: 40px;
-
-}
 
 .boton_volver {
   min-width: 130px;
-  height: 40px;
+  height: 50px;
+  width: 200px;
   color: #fff;
   padding: 5px 10px;
   font-weight: bold;
@@ -151,8 +153,34 @@ body {
   overflow: hidden;
   border-radius: 5px;
   border: none;
-  background-color: #343a40;
+  background-color: gray;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
+  font-size: 25px;
 }
 
+.boton_volver:hover {
+  border-radius: 5px;
+  padding-right: 24px;
+  padding-left: 8px;
+}
+
+.boton_volver:after {
+  opacity: 1;
+  right: 10px;
+}
+
+.boton_volver:after {
+  content: "\00BB";
+  position: absolute;
+  opacity: 0;
+  font-size: 20px;
+  line-height: 40px;
+  top: 0;
+  right: -20px;
+  transition: 0.4s;
+}
+
+.gatosperroimagenes{
+  border-radius: 20px;
+  margin: 20px;
+}
